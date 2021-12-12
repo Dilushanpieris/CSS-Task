@@ -1,0 +1,256 @@
+/*4 View Ports-Page Divider*/
+body > section {
+    width: 50vw;
+    height: 50vh;
+}
+
+body section:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+
+body section:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: green;
+}
+
+body section:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: orange;
+}
+
+body section:nth-child(4) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: deeppink;
+}
+
+/*Corner Circles*/
+body section:nth-child(1) div:nth-child(1){
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+}
+body section:nth-child(2) div:nth-child(1){
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+}
+body section:nth-child(3) div:nth-child(1){
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+body section:nth-child(4) div:nth-child(1){
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+}
+/* MiddleTop-Bottom Half-Circles */
+body section:nth-child(1) div:nth-child(2){
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+}
+body section:nth-child(2) div:nth-child(2){
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+}
+body section:nth-child(3) div:nth-child(2){
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+}
+body section:nth-child(4) div:nth-child(2){
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+/*Middle Box*/
+body section:nth-child(1) div:nth-child(3){
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+}
+body section:nth-child(2) div:nth-child(3){
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+}
+body section:nth-child(3) div:nth-child(3){
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+}
+body section:nth-child(4) div:nth-child(3){
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+/*Middle Circle-Red*/
+body section:nth-child(1) div:nth-child(4){
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+}
+body section:nth-child(2) div:nth-child(4){
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+body section:nth-child(3) div:nth-child(4){
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+}
+body section:nth-child(4) div:nth-child(4){
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+}
+/*Viewport-Mid Circles*/
+body section:nth-child(1) div:nth-child(5){
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+body section:nth-child(2) div:nth-child(5){
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+body section:nth-child(3) div:nth-child(5){
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+body section:nth-child(4) div:nth-child(5){
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+/*ViewPort-Red-Squares*/
+body section:nth-child(1) div:nth-child(6){
+    position: absolute;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body section:nth-child(2) div:nth-child(6){
+    position: absolute;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body section:nth-child(3) div:nth-child(6){
+    position: absolute;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body section:nth-child(4) div:nth-child(6){
+    position: absolute;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
